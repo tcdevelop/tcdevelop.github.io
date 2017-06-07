@@ -4,31 +4,32 @@
 <title>Packages</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<meta name="keywords" content="KZN Marketing, Communications, Branding, Digital marketing, marketing strategies, small business registration">
-<meta name="description" content="KZN's Marketing and Communications pioneers">
-<meta name="robots" content="index,follow">
-<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
-<link href="assets/css/jquery.fancybox.css" rel="stylesheet">
-<link href="assets/css/flexslider.css" rel="stylesheet" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" media="all"/>
+<link rel="stylesheet" href="assets/css/bootstrap.min.css" media="all"/>
+<link href="assets/css/jquery.fancybox.css" rel="stylesheet" media="all"/>
+<link href="assets/css/flexslider.css" rel="stylesheet" media="all"/>
 <link href="assets/css/owl.carousel.css" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css" />
-<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" />
-<link rel="stylesheet" href="assets/css/sign-in-popup.css" />
-<link rel="stylesheet" href="assets/css/popuo-box.css" />
-<link rel="stylesheet" href="assets/css/contact.css" />
+<link rel="stylesheet" href="assets/css/style.css" media="all"/>
+<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css" media="all"/>
+<link rel="stylesheet" href="assets/css/sign-in-popup.css" media="all"/>
+<link rel="stylesheet" href="assets/css/popuo-box.css" media="all"/>
+<link rel="stylesheet" href="assets/css/contact.css" media="all"/>
+<!--[if lt IE 9]>
+<script src="assets/js/jquery-1.11.0.min.js"></script>
+<script src="assets/js/respond.min.js"></script>
+<script src="assets/js/html5shiv.js"></script>
+<![endif]-->
 <script type="text/javascript" src="assets/js/jquery-2.1.0.min.js"></script>
-  <style type="text/css">
-
-   a:hover,a:active,a:link,a:focus{
-      outline: 0px none;
+<style type="text/css">
+a:hover,a:active,a:link,a:focus{
+    outline: 0px none;
   }
 
     @media (max-width:1366px){
-	#services {
-		padding: 3em 0;
-        background-color: #fafafa;
-        width: 100%;
+#services {
+    padding: 3em 0;
+    background-color: #fafafa;
+    width: 100%;
 	}
 }
 
@@ -48,71 +49,48 @@
     margin: 0 0 30px;
     text-transform: uppercase;
 }
-
   </style>
 </head>
-
 <body>
-<div id ="wrapper" class="home-wrapper">
-<header>
-<div class="container">
-     <div class="gx_header_grid">
-				<div class="gx_agile_logo">
-					<h1><a href="index.html"><span>Gx</span>Marketing</a></h1>
-				</div>
-				<div class="gx_w3layouts_contacts">
-					<ul>
-                    <li><i class="fa fa-phone fa-2x"></i>&nbsp;&nbsp;<span>(035) 797 3081 </span></li>
-					</ul>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-</div>
- <div class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header navbar-left navigation">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="index.html"></a>
-                </div>
-                <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
-                        <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About us</a></li>
-                            <!--<li><a href="#clients">Our Clients</a></li>-->
-						<li class="dropdown">
-                        <a href="javascript:void(0)" data-toggle="dropdown" class="dropdown-toggle">Services <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="marketing.html">Marketing</a></li>
-                            <li><a href="communications.html">Communications</a></li>
-                            <li><a href="printing.html">Printing</a></li>
-                            <li><a href="smme.html">SMME Support</a></li>
-                        </ul>
-                    </li>
-                        <li class="active"><a href="#services">Packages</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                    <div class="gx_w3layouts_sign_in">
-					<ul>
-						<li><a href="#small-dialog" class="play-icon popup-with-zoom-anim">Sign in to post a testmonial</a></li>
-					</ul>
-				</div>
-                </div>
-            </div>
-
+<header id="header_wrapper">
+  <div class="container">
+    <div class="header_box">
+     <a class="navbar-brand navbar-left page-scroll" href="index.html"><img src="assets/images/GX Group Logo.png" alt="" class="logo" /></a>
+	  <nav class="navbar navbar-right navbar-inverse" role="navigation">
+      <div class="navbar-header">
+        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
+	    <div id="main-nav" class="collapse navbar-collapse navStyle">
+			<ul class="nav navbar-nav" id="mainNav">
+			  <li><a href="index.html" class="scroll-link">Home</a></li>
+			  <li><a href="about.html" class="scroll-link">About</a></li>
+              <li class="dropdown">
+			  <a href="javacsript:void(0)" class="dropdown-toggle hvr-sweep-to-bottom" data-toggle="dropdown">Services<b class="caret"></b></a>
+			  <ul class="dropdown-menu agile_short_dropdown">
+			  <li><a href="marketing.html">Marketing</a></li>
+			  <li><a href="communications.html">Communications</a></li>
+			  <li><a href="printing.html">Printing</a></li>
+			  <li><a href="smme.html">Smme Support</a></li>
+			  </ul>
+			  </li>
+			  <li><a href="pricing.html" class="hvr-sweep-to-bottom">Packages</a></li>
+			  <li><a href="contact.html" class="hvr-sweep-to-bottom">Contact</a></li>
+			  <li><a href="#small-dialog" class="play-icon popup-with-zoom-anim btn btn-success btn-block" style="background-color: #000; color: #fff">CLIENTS TESTIMONIAL</a></li>
+			</ul>
+      </div>
+	 </nav>
+    </div>
+  </div>
 </header>
-<!--End of header-->
+<!--Header_section-->
+<!-- //header -->
 <section id="services"  style="border-bottom: 1px solid #E0E0E0">
 <div class="services">
 		<div class="container-fluid">
            <div class="row">
              <div class="page-header title-section white">
                 <h1>Our Packages</h1>
-                <i class="fa fa-caret-down fa-3x" style="color: #148AFF"></i>  
+                <i class="fa fa-caret-down fa-3x" style="color:  rgba(255, 31, 31, 1)"></i>
              </div>
              <div class="columns">
                <ul class="price">
@@ -124,7 +102,7 @@
                   <li>Electronic Invoice</li>
                   <li>Electronic Quotation</li>
                   <li>10 Designed Profiles</li>
-                 <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                 <li class="grey"><a href="mailto:admin@gxmarketing.co.za" class="button">Get It</a></li>
                </ul>
              </div>
 
@@ -140,7 +118,7 @@
                   <li>10 Business Profiles</li>
                   <li>1 Domain</li>
                   <li>5 Email Addresses</li>
-                  <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                  <li class="grey"><a href="mailto:admin@gxmarketing.co.za" class="button">Get It</a></li>
                </ul>
              </div>
 
@@ -157,7 +135,7 @@
                   <li>Domain Registration</li>
                   <li>2 Page Website</li>
                   <li>1 Pull-up Banner</li>
-                  <li class="grey"><a href="#" class="button">Sign Up</a></li>
+                  <li class="grey"><a href="mailto:admin@gxmarketing.co.za" class="button">Get It</a></li>
                </ul>
              </div>
            </div>
@@ -233,10 +211,8 @@
 
 	});
 </script>
-</div>
 <p class="copyright-agileits">&copy; 2017 GX Marketing Group. All Rights Reserved | Design by <a href="" target="_blank">Cedric</a></p>
 <script type="text/javascript" src="assets/js/jquery.easing.1.3.js"></script>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 </body>
-
 </html>
