@@ -6,6 +6,7 @@
 	max-width: 500px;
 	margin: 40px auto;
 	position: relative;
+	top: 70px;
 	text-align:center;
 }
 #small-dialog-it,#small-dialog-in,#small-dialog-fr,#small-dialog-sh,#small-dialog-sf,#small-dialog-su,#small-dialog-me,#small-dialog-ch,#small-dialog-pi,#small-dialog-am {
