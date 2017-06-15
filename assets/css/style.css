@@ -83,6 +83,16 @@ h1,h2, h3, h4, h5, h6 {
     background-color: transparent;
     border-color: transparent;
 }
+header .nav .caret {
+    border-top: 4px solid #000;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    margin-left: 2px;
+    margin-bottom: 4px;
+    background-color: transparent;
+
+
+}
 
 .navbar {
     min-height: 40px;
@@ -190,7 +200,7 @@ h1,h2, h3, h4, h5, h6 {
     border-bottom: 2px solid #f00;
 }
 
-.btn-block{
+.btn-block,.btn-testmonial{
     box-shadow:0 3px 3px 0 rgba(0,0,0,0.14),0 1px 7px 0 rgba(0,0,0,0.12),0 3px 1px -1px rgba(0,0,0,0.2);
     background-color: #000;
     color: #FFFFFF;
@@ -356,7 +366,7 @@ display: inline-block;
 /* --- flexslider --- */
 #main-slider:before {/* content: ''; *//* width: 100%; *//* height: 100%; *//* background: rgba(0, 148, 255, 0.74); *//* z-index: 1; *//* position: absolute; */}
 .flex-direction-nav a{
-display:block;
+display:none;
 }
 
 .flex-control-nav li{
@@ -1454,10 +1464,7 @@ article img.pull-right, article .align-right{
 .margintop40{
 	margin-top:40px;
 }
-header .nav .caret {
-    border-bottom-color: #f5f5f5;
-    border-top-color: #055f7b;
-}
+
 
 /*  Media queries
 ============================= */
