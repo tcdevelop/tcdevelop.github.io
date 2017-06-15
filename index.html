@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <title>GX Marketing</title>
@@ -71,7 +71,7 @@ a:hover,a:active,a:link,a:focus{
 	width: 100%;
 	background:#000;
 	position:relative;
-	margin:0s;
+	margin:0;
 	padding:0;
 }
 
@@ -80,11 +80,16 @@ a:hover,a:active,a:link,a:focus{
     content: '';  width: 100%;  height: 100%;  background: rgba(0, 0, 0, 0.74);  z-index: 1;  position: absolute;
 }
 
+.btn-testmonial{
+    padding: 20px;
+    font-weight: bold;
+
+}
+
  #bee span{
      color: red;
      font-weight: bold;
  }
-
 </style>
 </head>
 <body>
@@ -135,7 +140,9 @@ a:hover,a:active,a:link,a:focus{
                     <i class="fa fa-bar-chart fa-3x"></i>
                     &nbsp;&nbsp;
                     <i class="fa fa-pie-chart fa-3x"></i>
-                    <h3>Marketing Strategy Planning</h3>
+                    <h3>Marketing Strategy Planning<br>
+                    <a href="" class="btn btn-success btn-testmonial" style="background-color: #000; color: #fff">SEE WHAT OUR CLIENTS SAY</a></h3>
+
                 </div>
               </li>
               <li>
@@ -146,7 +153,9 @@ a:hover,a:active,a:link,a:focus{
                     <i class="fa fa-bar-chart fa-3x"></i>
                     &nbsp;&nbsp;
                     <i class="fa fa-pie-chart fa-3x"></i>
-                   <h3>Marketing Expert</h3>
+                   <h3>Marketing Expert<br>
+                    <a href="" class="btn btn-success btn-testmonial" style="background-color: #000; color: #fff">SEE WHAT OUR CLIENTS SAY</a>
+                   </h3>
                 </div>
               </li>
               <li>
@@ -157,8 +166,10 @@ a:hover,a:active,a:link,a:focus{
                     <i class="fa fa-bar-chart fa-3x"></i>
                     &nbsp;&nbsp;
                     <i class="fa fa-pie-chart fa-3x"></i>
-                   <h3>Digital marketing</h3>
-                   <p>Marketing is our passion</p>
+                   <h3>
+                      Digital marketing<br>
+                      <a href="" class="btn btn-success btn-testmonial" style="background-color: #000; color: #fff;">SEE WHAT OUR CLIENTS SAY</a>
+                   </h3>
                 </div>
               </li>
             </ul>
@@ -236,7 +247,8 @@ a:hover,a:active,a:link,a:focus{
 		</div>
 	</div>
   </div>
-  <!-- pop-up-box -->
+</section>
+<!-- pop-up-box -->
 	<div id="small-dialog" class="mfp-hide w3ls_small_dialog wthree_pop">
 		<h3 class="agileinfo_sign">Sign In</h3>
 		<div class="agileits_signin_form">
@@ -288,6 +300,7 @@ a:hover,a:active,a:link,a:focus{
 		</div>
 	</div>
 <!-- //pop-up-box -->
+<p class="copyright-agileits">&copy; 2017 GX Marketing Group. All Rights Reserved | Design by <a href="http://www.gxmarketing.co.za" target="_blank">GX Marketing</a></p>
 <script src="assets/js/jquery.magnific-popup.js"></script>
 <script>
 	$(document).ready(function() {
@@ -305,8 +318,6 @@ a:hover,a:active,a:link,a:focus{
 
 	});
 </script>
-</section>
-<p class="copyright-agileits">&copy; 2017 GX Marketing Group. All Rights Reserved | Design by <a href="" target="_blank">Cedric</a></p>
 <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 <script src="assets/js/jquery.fancybox.pack.js"></script>
 <script src="assets/js/jquery.fancybox-media.js"></script>
@@ -316,24 +327,5 @@ a:hover,a:active,a:link,a:focus{
 <script src="assets/js/animate.js"></script>
 <script src="assets/js/custom.js"></script>
 <script src="assets/js/owl.carousel.js"></script>
-<script type="text/javascript">
-$(document).ready(function(){
-     $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
-        || location.hostname == this.hostname) {
-
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
-    }
-});
-});
-</script>
-
 </body>
 </html>
